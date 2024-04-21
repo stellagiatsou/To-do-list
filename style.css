@@ -1,0 +1,35 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,400i,700");
+
+body{
+    background: rgb(232, 247, 248);
+    font-family: 'Montserrat';
+}
+
+
+.container{
+    max-width: 600px;
+    margin: 2 rem auto;
+    background: #ffffff;
+    padding: 40px;
+    border-radius: 8px;
+
+ } 
+
+h1 {
+    text-align: center;
+}
+
+.button-addTask{
+    background: rgb(171, 242, 247);
+    color: black;
+    padding: 10px 16px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    border:0;
+
+    &:hover{
+        background: rgb(232, 247, 248);
+        cursor: pointer;
+    }
+
+}
